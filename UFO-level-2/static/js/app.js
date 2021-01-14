@@ -7,11 +7,13 @@ var button = d3.select("#filter-btn");
 
 //Global Table Body
 const tableBody = d3.select("tbody");
+//Clear all previous data from UFO table
+//tableBody.html("");
 
 // Create function, which builds the table with provided data
 function UFObuildTable(tableData) {
     //Clear all previous data from UFO table
-    tableBody.html("");
+    //tableBody.html("");
     tableData.forEach(entry => {
     var row = tableBody.append("tr");
     row.append("td").text(entry.datetime);
@@ -65,6 +67,8 @@ button.on("click", function() {
         console.log(filteredData);
     }
 
+    //Clear all previous data from UFO table
+    tableBody.html("");
    // Iterate through each UFO Sighting event, through all elements of data dictionary,
     // and build HTML UFO Sightings table
     if (filteredData.length >0){
@@ -72,6 +76,6 @@ button.on("click", function() {
         UFObuildTable(filteredData);
     }
     else{
-        var row = tbody.append("h1").text("No data found");
+        var row = tableBody.append("h1").text("No data found");
     }
   });
