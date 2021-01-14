@@ -26,6 +26,6 @@ A Dynamic javascript and DOM manipulation was created to integrate various javas
 
 
 ### Dataset
-[UFO Sightings Data](./Javascript-Challenge/UFO-level-1/static/data.js)
+[UFO Sightings Data](./UFO-level-1/static/data.js)
 
  
