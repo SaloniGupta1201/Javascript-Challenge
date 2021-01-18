@@ -1,4 +1,4 @@
-# Javascript-Challenge </br>
+# JavaScript-Challenge </br>
  **Submitted By:** Saloni Gupta\
 _Date_: january, 13th, 2020 
 
