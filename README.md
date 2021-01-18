@@ -5,6 +5,9 @@ _Date_: january, 13th, 2020
 
 ## JavaScript and DOM Manipulation
 ## Background
+
+![UFO Sightings Image](./Images/UFO2.JPG)
+
 This respository displayed the eye-witness reports, and the collected data that shows the extra-terrestrial menace has come to Earth. All we need to do now is put this information online for the world to see and then the matter will finally be put to rest.
 
 A Dynamic JavaScript and DOM manipulation was created to integrate various javascript libraries provided from D3 to moments, and pulled in data from a filtered javascript object, and populated to a table. Users can also filter the table data for specific values. Technologies used were JavaScript, HTML, CSS, and D3.js to deploy the data on the web page.
