@@ -4,6 +4,9 @@ _Date_: january, 13th, 2020
 
 
 ## JavaScript and DOM Manipulation
+
+Technologies => JavaScript, HTML, CSS, and D3.js Creates a table dynamically, using the provided dataset, and allows users to filter the table data for specific values.
+
 ## Background
 
 ![UFO Sightings Image](./Images/UFO2.JPG)
